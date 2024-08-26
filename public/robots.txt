@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /~joe/
